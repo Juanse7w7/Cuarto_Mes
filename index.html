@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Álbum Romántico - 4 Meses</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Celebrando Nuestro Cuarto Mes Mi Amor ❤️</h1> <!-- Título del álbum -->
+    <div class="hearts-container"></div> <!-- Corazones animados -->
+
+    <div class="album-container">
+        <div class="photo" id="photo1">
+            <img src="foto1.jpg" alt="Foto 1">
+            <p class="caption">"Así que te amaré cada noche como si fuera la última noche."</p>
+        </div>
+        <div class="photo" id="photo2">
+            <img src="foto2.jpg" alt="Foto 2">
+            <p class="caption">"Como si fuera la última noche."</p>
+        </div>
+        <div class="photo" id="photo3">
+            <img src="foto3.jpg" alt="Foto 3">
+            <p class="caption">"Si el mundo se estuviera acabando, quisiera estar a tu lado."</p>
+        </div>
+        <div class="photo" id="photo4">
+            <img src="foto4.jpg" alt="Foto 4">
+            <p class="caption">"Si la fiesta hubiera terminado y nuestro tiempo en la Tierra hubiera acabado."</p>
+        </div>
+        <div class="photo" id="photo5">
+            <img src="foto5.jpg" alt="Foto 5">
+            <p class="caption">"Quisiera abrazarte solo un momento."</p>
+        </div>
+        <div class="photo" id="photo6">
+            <img src="foto6.jpg" alt="Foto 6">
+            <p class="caption">"Y morir con una sonrisa. Si el mundo se estuviera acabando, quisiera estar a tu lado."</p>
+        </div>
+    </div>
+
+    <!-- Sección para carta oculta por defecto -->
+    <div class="final-section" id="final-section" style="display: none;"> <!-- Contenedor para la carta -->
+        <h2>🌹 Mi Carta para Ti 🌹</h2>
+        <p class="final-letter">
+            Querida Ari, <br>
+            Estos cuatro meses juntos han sido un sueño hecho realidad. ✨ Cada momento a tu lado es un regalo que atesoro en mi corazón. 💖 Me siento afortunado de tenerte en mi vida y de compartir tantos recuerdos hermosos contigo. <br>
+            Siempre quiero que sepas lo mucho que te amo y lo agradecido que estoy por tenerte. 🥰 Espero que sigamos creando recuerdos juntos por muchos meses más. <br>
+            Con todo mi amor, <br>
+            Sebas 💕
+        </p>
+    </div>
+
+    <div class="controls">
+        <button id="prev">Anterior</button>
+        <button id="next">Siguiente</button>
+        <button id="toggle-music">Reproducir/Pausar Música</button> <!-- Botón para la música -->
+    </div>
+
+    <audio id="music" loop>
+        <source src="musica.mp3" type="audio/mpeg">
+        Tu navegador no soporta la reproducción de audio.
+    </audio>
+
+    <script src="script.js"></script>
+</body>
+</html>
